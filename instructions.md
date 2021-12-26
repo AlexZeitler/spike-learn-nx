@@ -38,3 +38,9 @@ success Installed "create-nx-workspace@13.4.1" with binaries:
 
 ✨  Done in 35.84s.
 ```
+
+### Add Node generator
+
+```bash
+yarn add --dev @nrwl/node
+```
