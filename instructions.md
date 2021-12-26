@@ -44,3 +44,34 @@ success Installed "create-nx-workspace@13.4.1" with binaries:
 ```bash
 yarn add --dev @nrwl/node
 ```
+
+### Generate Node api
+
+```bash
+ nx generate @nrwl/node:app api
+UPDATE nx.json
+CREATE jest.config.js
+CREATE jest.preset.js
+UPDATE package.json
+UPDATE .vscode/extensions.json
+CREATE apps/api/src/app/.gitkeep
+CREATE apps/api/src/assets/.gitkeep
+CREATE apps/api/src/environments/environment.prod.ts
+CREATE apps/api/src/environments/environment.ts
+CREATE apps/api/src/main.ts
+CREATE apps/api/tsconfig.app.json
+CREATE apps/api/tsconfig.json
+CREATE apps/api/project.json
+UPDATE workspace.json
+CREATE .eslintrc.json
+CREATE apps/api/.eslintrc.json
+CREATE apps/api/jest.config.js
+CREATE apps/api/tsconfig.spec.json
+yarn install v1.22.5
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 🔨  Building fresh packages...
+success Saved lockfile.
+✨  Done in 7.44s.
+```
